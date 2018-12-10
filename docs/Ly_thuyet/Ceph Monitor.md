@@ -39,13 +39,8 @@ Nếu hạn chế về tài chính, monitor daemon có thể chạy cùng trên 
 Đối với các hệ thống lớn, nên sử dụng node monitor chuyên dụng. Đặt các node montior trên các rack riêng biệt với switch và nguồn điện riêng biệt. Nếu có nhiều datacenter với đường mạng tốc độ cao, có thể đặt monitor node trên nhiều DC.
 
 ## 3. Monitor Commands
- - Kiểm tra trạng thái service, dùng câu lệnh:
 
-  ```
-  service ceph status mon
-  ```
- - Các câu lệnh đẻ kiểm tra trạng thái các node monitor:
- 
+
   ```
   ceph mon stat
   ceph mon_status
